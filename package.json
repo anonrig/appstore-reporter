@@ -1,0 +1,33 @@
+{
+  "name": "appstore-reporter",
+  "version": "0.1.0",
+  "description": "AppStore Connect reporter client with TypeScript support",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "run-s clean && run-p build:*",
+    "build:module": "tsc -p tsconfig.json",
+    "start:dev": "tsc -w"
+  },
+  "author": "Yagiz Nizipli <yagiz@nizipli.com>",
+  "license": "MIT",
+  "repository": "git://github.com/socketkit/appstore-reporter.git",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "stream-to-promise": "^3.0.0",
+    "xml2js": "^0.4.23",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/stream-to-promise": "^2.2.1",
+    "@types/xml2js": "^0.4.7",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.1.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "appstore-reporter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "AppStore Connect reporter client with TypeScript support",
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",

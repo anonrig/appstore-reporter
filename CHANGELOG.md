@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/socketkit/appstore-reporter/compare/v1.0.1...v1.0.2) (2020-12-04)
+
+
+### Bug Fixes
+
+* **transaction:** fix transaction attribute namings ([4e993e3](https://github.com/socketkit/appstore-reporter/commit/4e993e341a798d355a0dbc530df29ba9ebabc218))
+
 ## [1.0.1](https://github.com/socketkit/appstore-reporter/compare/v1.0.0...v1.0.1) (2020-12-04)
 
 

@@ -26,7 +26,8 @@ export enum FinancialReportType {
 
 export enum ReportType {
   sales = 'Sales',
-  preOrder = 'Pre-Order'
+  preOrder = 'Pre-Order',
+  subscriber = 'Subscriber'
 }
 
 export enum ReportSubType {
@@ -34,7 +35,7 @@ export enum ReportSubType {
   detailed = 'Detailed'
 }
 export interface SalesReportQuery {
-  vendorNumber: number
+  vendorNumber: string
   reportType: ReportType
   reportSubType: ReportSubType
   dateType: ReportDateType // Daily, Weekly
@@ -72,7 +73,7 @@ export interface SaleTransaction {
 }
 
 export interface FinanceReportQuery {
-  vendorNumber: number
+  vendorNumber: string
   regionCode: string
   reportType: FinancialReportType
   fiscalYear: string

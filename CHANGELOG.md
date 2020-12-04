@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/socketkit/appstore-reporter/compare/v1.0.2...v1.0.3) (2020-12-04)
+
+
+### Bug Fixes
+
+* **interface:** update interface for transaction ([53ae3ef](https://github.com/socketkit/appstore-reporter/commit/53ae3ef7b64cfe4e1d643c04abc210a34c239ee7))
+
 ## [1.0.2](https://github.com/socketkit/appstore-reporter/compare/v1.0.1...v1.0.2) (2020-12-04)
 
 

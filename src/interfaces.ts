@@ -44,32 +44,32 @@ export interface SalesReportQuery {
 }
 
 export interface SaleTransaction {
-  EventDate: string // YYYY-MM-DD
-  AppName: string
-  AppAppleID: string
-  SubscriptionName?: string
-  SubscriptionAppleID: string
-  SubscriptionGroupID: string
-  StandardSubscriptionDuration?: string
-  PromotionalOfferName?: string
-  PromotionalOfferID?: string
-  SubscriptionOfferType?: string
-  SubscriptionOfferDuration?: string
-  MarketingOptInDuration?: string
-  CustomerPrice?: string
-  CustomerCurrency: string
-  DeveloperProceeds: string
-  ProceedsCurrency: string
-  PreservedPricing?: string
-  ProceedsReason?: string
-  Client?: string
-  Device: string
-  Country: string
-  SubscriberID: string
-  SubscriberIDReset?: string
-  Refund?: string
-  PurchaseDate?: string
-  Units?: string
+  eventDate: string // YYYY-MM-DD
+  appName: string
+  appAppleIDd: string
+  subscriptionName?: string
+  subscriptionAppleId: string
+  subscriptionGroupId: string
+  standardSubscriptionDuration?: string
+  promotionalOfferName?: string
+  promotionalOfferId?: string
+  subscriptionOfferType?: string
+  subscriptionOfferDuration?: string
+  marketingOptInDuration?: string
+  customerPrice?: string
+  customerCurrency: string
+  developerProceeds: string
+  proceedsCurrency: string
+  preservedPricing?: string
+  proceedsReason?: string
+  client?: string
+  device: string
+  country: string
+  subscriberId: string
+  subscriberIdReset?: string
+  refund?: string
+  purchaseDate?: string
+  units?: string
 }
 
 export interface FinanceReportQuery {

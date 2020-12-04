@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/socketkit/appstore-reporter/compare/v1.0.3...v1.0.4) (2020-12-04)
+
+
+### Bug Fixes
+
+* typo in sale transaction ([6f37a5e](https://github.com/socketkit/appstore-reporter/commit/6f37a5e8ceb70a1e7851c918e4f5d60ee2634d13))
+
 ## [1.0.3](https://github.com/socketkit/appstore-reporter/compare/v1.0.2...v1.0.3) (2020-12-04)
 
 

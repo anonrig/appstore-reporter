@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/socketkit/appstore-reporter/compare/v1.0.0...v1.0.1) (2020-12-04)
+
+
+### Bug Fixes
+
+* **sales:** fix vendor number type and add additional types ([0c28bbd](https://github.com/socketkit/appstore-reporter/commit/0c28bbd3acffd295a744b8db8ad98b87284261de))
+
 # 1.0.0 (2020-11-29)
 
 

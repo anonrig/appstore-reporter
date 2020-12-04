@@ -34,6 +34,7 @@ export enum ReportSubType {
   summary = 'Summary',
   detailed = 'Detailed'
 }
+
 export interface SalesReportQuery {
   vendorNumber: string
   reportType: ReportType
@@ -46,7 +47,7 @@ export interface SalesReportQuery {
 export interface SaleTransaction {
   eventDate: string // YYYY-MM-DD
   appName: string
-  appAppleIDd: string
+  appAppleId: string
   subscriptionName?: string
   subscriptionAppleId: string
   subscriptionGroupId: string

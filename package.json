@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": "git://github.com/socketkit/appstore-reporter.git",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "stream-to-promise": "^3.0.0",
     "xml2js": "^0.4.23",
     "zlib": "^1.0.5"
@@ -32,13 +32,13 @@
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/github": "^7.2.0",
-    "@semantic-release/npm": "^7.0.9",
+    "@semantic-release/npm": "^7.0.10",
     "@semantic-release/release-notes-generator": "^9.0.1",
-    "@types/node": "^14.14.10",
+    "@types/node": "^14.14.22",
     "@types/stream-to-promise": "^2.2.1",
-    "@types/xml2js": "^0.4.7",
+    "@types/xml2js": "^0.4.8",
     "npm-run-all": "^4.1.5",
-    "semantic-release": "^17.3.0",
-    "typescript": "^4.1.2"
+    "semantic-release": "^17.3.7",
+    "typescript": "^4.1.3"
   }
 }

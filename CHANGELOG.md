@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/socketkit/appstore-reporter/compare/v1.0.4...v1.0.5) (2021-03-01)
+
+
+### Bug Fixes
+
+* bump dependencies ([4fada88](https://github.com/socketkit/appstore-reporter/commit/4fada88fd2051bb031fe5aa81bcac54e5b915e45))
+
 ## [1.0.4](https://github.com/socketkit/appstore-reporter/compare/v1.0.3...v1.0.4) (2020-12-04)
 
 

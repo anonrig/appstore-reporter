@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": "git://github.com/socketkit/appstore-reporter.git",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.25.0",
     "stream-to-promise": "^3.0.0",
     "xml2js": "^0.4.23",
     "zlib": "^1.0.5"
